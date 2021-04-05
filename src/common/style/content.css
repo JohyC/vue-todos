@@ -98,7 +98,7 @@
   height: auto;
 }
 
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 40rem) {
   .nav-group {
     display: none !important;
   }
@@ -175,7 +175,7 @@
   border-radius: 0;
   font-weight: bold;
 }
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 40rem) {
   .title-input {
     left: 1rem;
     right: 6rem;

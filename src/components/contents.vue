@@ -3,7 +3,10 @@
     <nav class="todo-title">
       <div class="nav-group">
         <a class="nav-item">
-          <i class="iconfont">&#xe62b;</i>
+          <i
+          class="iconfont"
+          @click="menus = !menus"
+          >&#xe62b;</i>
         </a>
       </div>
       <h1 class="title" :class="{ show }" @dblclick="changeShow()">
@@ -66,7 +69,8 @@ export default {
   data: function () {
     return {
       show: false,
-      isLock: false
+      isLock: false,
+      menus: false
     }
   },
   computed: {
@@ -97,6 +101,19 @@ export default {
   watch: {
     isLock () {
       this.$store.commit('isLock', this.todo)
+    },
+    menus () {
+      let menu = document.getElementsByClassName('menu')[0]
+      let content = document.getElementsByClassName('content')[0]
+      if (this.menus) {
+        menu.style.width = '30vw'
+        menu.style.opacity = '0.6'
+        content.style.width = '70vw'
+      } else {
+        menu.style.width = '0vw'
+        menu.style.opacity = '0'
+        content.style.width = '100vw'
+      }
     }
   }
 }

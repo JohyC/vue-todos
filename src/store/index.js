@@ -89,6 +89,9 @@ export const store = new Vuex.Store({
     },
     isLock (state, todo) {
       todo.locked = !todo.locked
+    },
+    menus (state) {
+      state.itemLists.menus = !state.itemLists.menus
     }
   },
   getters: {
