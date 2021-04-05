@@ -1,7 +1,6 @@
 .item-list,
 .new-item-list {
   display: block;
-  width: 30vw;
   overflow: hidden;
   font-size: 16px;
   line-height: 1em;
@@ -9,7 +8,6 @@
   position: relative;
   box-sizing: border-box;
   border-bottom: 1px solid hsl(0deg 0% 100% / 15%);
-  position: relative;
 }
 .item-list i,
 .new-item-list i {
@@ -18,10 +16,10 @@
 }
 .item-text {
   opacity: 1;
-  width: 11.8em;
+  display: inline-block;
+  width: -webkit-fill-available;
   white-space: nowrap;
   overflow-x: hidden;
-  text-overflow: ellipsis;
   transition: all .2s ease-in;
 }
 .completed-count {
