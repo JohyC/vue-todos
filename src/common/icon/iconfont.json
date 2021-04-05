@@ -1,0 +1,86 @@
+{
+  "id": "2462041",
+  "name": "vue-todos",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "13613278",
+      "name": "unlock",
+      "font_class": "unlock",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "2506182",
+      "name": "列表",
+      "font_class": "liebiao",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "2180832",
+      "name": "删除",
+      "font_class": "shanchu_",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "20282297",
+      "name": "删除",
+      "font_class": "shanchu1",
+      "unicode": "e672",
+      "unicode_decimal": 58994
+    },
+    {
+      "icon_id": "1017294",
+      "name": "checkbox",
+      "font_class": "checkbox",
+      "unicode": "e677",
+      "unicode_decimal": 58999
+    },
+    {
+      "icon_id": "1462877",
+      "name": "add",
+      "font_class": "add",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "5326857",
+      "name": "add",
+      "font_class": "add1",
+      "unicode": "e649",
+      "unicode_decimal": 58953
+    },
+    {
+      "icon_id": "6988499",
+      "name": "check-box-outline-bl",
+      "font_class": "check-box-outline-bl",
+      "unicode": "ec58",
+      "unicode_decimal": 60504
+    },
+    {
+      "icon_id": "7206008",
+      "name": "Add",
+      "font_class": "Add",
+      "unicode": "e62e",
+      "unicode_decimal": 58926
+    },
+    {
+      "icon_id": "9568057",
+      "name": "add",
+      "font_class": "add2",
+      "unicode": "e64a",
+      "unicode_decimal": 58954
+    },
+    {
+      "icon_id": "14465149",
+      "name": "lock",
+      "font_class": "lock",
+      "unicode": "e690",
+      "unicode_decimal": 59024
+    }
+  ]
+}
